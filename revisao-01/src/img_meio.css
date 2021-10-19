@@ -1,0 +1,27 @@
+.box_img{
+  width: 100%;
+  min-height: 30vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.box_img .img{
+    max-width: 300px;
+    min-height: 200px;
+    background-image: url(https://okawalivros.com.br/wp-content/uploads/2017/06/historia-de-lobos-okawalivros-1080x675.jpg);
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.box_img .texto{
+    background-color: rgb(61, 60, 60);
+    max-width: 280px;
+    padding: 10px;
+}
+
+.box_img .texto .ver{
+    color: lightblue;
+    font-size: 20px;
+    margin-top: 50px;
+}
